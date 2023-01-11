@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datastructure_Algoritham", "Datastructure_Algoritham\Datastructure_Algoritham.csproj", "{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{EE3A88CA-FDC1-45F0-8A71-12DA869EE965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorted-squared-array", "sorted-squared-array\sorted-squared-array.csproj", "{94C6981D-BE98-447F-9B29-C87BA055331D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C6981D-BE98-447F-9B29-C87BA055331D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C6981D-BE98-447F-9B29-C87BA055331D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C6981D-BE98-447F-9B29-C87BA055331D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C6981D-BE98-447F-9B29-C87BA055331D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94C6981D-BE98-447F-9B29-C87BA055331D} = {EE3A88CA-FDC1-45F0-8A71-12DA869EE965}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A53A2B86-DEF9-4F3A-BD2F-0B9D38D2EC50}

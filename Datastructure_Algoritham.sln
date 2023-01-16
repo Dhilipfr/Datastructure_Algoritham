@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.sorted-squared-array", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.two-number-sum", "Array\two-number-sum\1.two-number-sum.csproj", "{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validate-subsequence", "Array\validate-subsequence\validate-subsequence.csproj", "{F77407AC-7649-48A5-ADFC-48B6A4478553}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.validate-subsequence", "Array\validate-subsequence\2.validate-subsequence.csproj", "{F77407AC-7649-48A5-ADFC-48B6A4478553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

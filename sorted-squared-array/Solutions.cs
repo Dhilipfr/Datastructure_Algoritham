@@ -18,26 +18,26 @@ namespace sorted_squared_array
             Array.Sort(array);
             return array;
         }
-            public static int[] Solution2(int[] array)
+        public static int[] Solution2(int[] array)
+        {
+            var res = new int[array.Length];
+            var counter = array.Length - 1;
+            var fi = 0;
+            var li = array.Length - 1;
+            for (int i = 0; i < array.Length; i++)
             {
-                var res = new int[array.Length];
-                var counter = array.Length - 1;
-                var fi = 0;
-                var li = array.Length - 1;
-                for (int i = 0; i < array.Length; i++)
+                if (Math.Abs(array[fi]) > Math.Abs(array[li]))
                 {
-                    if (Math.Abs(array[fi]) > Math.Abs(array[li]))
-                    {
-                        res[counter-i] = array[fi] * array[fi];
-                        fi++;
-                    }
-                    else
-                    {
-                        res[counter-i] = array[li] * array[li];
-                        li--;
-                    }
+                    res[counter - i] = array[fi] * array[fi];
+                    fi++;
                 }
-                return res;
+                else
+                {
+                    res[counter - i] = array[li] * array[li];
+                    li--;
+                }
             }
+            return res;
+        }
     }
 }

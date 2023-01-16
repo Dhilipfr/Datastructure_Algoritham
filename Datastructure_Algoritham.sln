@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datastructure_Algoritham", "Datastructure_Algoritham\Datastructure_Algoritham.csproj", "{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datastructure_Algoritham", "Datastructure_Algoritham\Datastructure_Algoritham.csproj", "{AFB1E5D6-B96F-402F-8BB1-C3FD617788A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{EE3A88CA-FDC1-45F0-8A71-12DA869EE965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorted-squared-array", "sorted-squared-array\sorted-squared-array.csproj", "{94C6981D-BE98-447F-9B29-C87BA055331D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.sorted-squared-array", "sorted-squared-array\3.sorted-squared-array.csproj", "{94C6981D-BE98-447F-9B29-C87BA055331D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.two-number-sum", "Array\two-number-sum\1.two-number-sum.csproj", "{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validate-subsequence", "Array\validate-subsequence\validate-subsequence.csproj", "{F77407AC-7649-48A5-ADFC-48B6A4478553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,22 @@ Global
 		{94C6981D-BE98-447F-9B29-C87BA055331D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C6981D-BE98-447F-9B29-C87BA055331D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C6981D-BE98-447F-9B29-C87BA055331D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77407AC-7649-48A5-ADFC-48B6A4478553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77407AC-7649-48A5-ADFC-48B6A4478553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77407AC-7649-48A5-ADFC-48B6A4478553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77407AC-7649-48A5-ADFC-48B6A4478553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{94C6981D-BE98-447F-9B29-C87BA055331D} = {EE3A88CA-FDC1-45F0-8A71-12DA869EE965}
+		{45B34DF7-CB42-4BA5-B42B-8B6FA9CD138B} = {EE3A88CA-FDC1-45F0-8A71-12DA869EE965}
+		{F77407AC-7649-48A5-ADFC-48B6A4478553} = {EE3A88CA-FDC1-45F0-8A71-12DA869EE965}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A53A2B86-DEF9-4F3A-BD2F-0B9D38D2EC50}
